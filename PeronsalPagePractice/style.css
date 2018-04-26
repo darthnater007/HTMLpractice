@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: radial-gradient(#4D716C, #365D58, #204843);
+    box-shadow: 5px 5px;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+}
+
+header h1{
+    font-family: Monofett;
+    font-size: 9vh;
+    border-bottom: 3px solid black;
+    margin-left: 10%;
+    text-shadow:  2px 3px lightblue;
+}
+header h3{
+    font-family: Buda;
+    margin-left: 5%;
+}
+
+.nav{
+    background: linear-gradient(#736732, #948856);
+    position: absolute;
+    width: 20%;
+    height: 42%;
+}
+
+.nav a{
+    font-family: Buda;
+    font-size: 4.8vh;
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.nav a:hover{
+    text-decoration: underline
+}
+
+.content{
+    background-color: #736732;
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    top: 15%;
+    right: 0%;
+}
+
+.about{
+    background: linear-gradient(to top, #736732, #948856);
+    position: absolute;
+    height: 41.8%;
+    width:80%;
+    right: 0%;
+}
+
+.about span{
+    font-family: Buda;
+    font-size: 5vh;
+    text-decoration: underline;
+    padding-left: 5%;
+}
+
+#profpic{
+    float: right;
+    border: 3px solid black;
+}
+
+.about p{
+    font-size: 3vh;
+    padding-left: 5%;
+}
+
+p:first-letter{
+    font-size: 120%;
+}
+
+.below{
+    background-color: #736732;
+    position: absolute;
+    height: 58%;
+    width: 100%;
+    bottom: 0%;
+}
+
+.below img{
+    float: left;
+}
+
+.below h3{
+    font-family: Buda;
+    font-size: 5.5vh;
+    text-decoration: underline;
+    margin-left: 10%;
+}
+
+.below a{
+    margin-left: 5%;
+    display: block;
+    font-size: 4vh;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.below a:hover{
+    text-decoration: underline;
+}
+
+.below img{
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    border: 3px solid black;
+}
+
+footer{
+    background: radial-gradient(#4D716C, #365D58, #204843);
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom: 0%;
+}
+
+footer a{
+    color: black;
+    font-family: Buda;
+    font-size: 3.2vh;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
